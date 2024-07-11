@@ -1,0 +1,173 @@
+body {
+    background-color: #EBD8CF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    flex-direction: column;
+    width: 80%;
+    height: 95%;
+    display: flex;
+    position: relative;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    padding-top: 35px;
+}
+
+.logo {
+    display: flex;
+    flex: 1;
+    align-items: center;
+}
+
+.logo img {
+    width: 50px;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+.text h1 {
+    font-size: 48px;
+    color: #990f3d;
+    font-weight: 400;
+    font-family: "Averia Serif Libre", serif;
+    margin-bottom: 0;
+    margin-bottom: 20px;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+
+.search-container input[type="search"] {
+    width: 100%;
+    padding: 20px;
+    font-size: 16px;
+    border: 2px solid #990f3d;
+    border-radius: 40px;
+    outline: none;
+}
+
+.search-container img {
+    width: 40px;
+    height: 40px;
+    transform: rotate(180deg);
+}
+
+.linkedin-icon {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    color: #EBD8CF;
+    background-color: #990f3d;
+    border: 3px solid transparent;
+    text-align: center;
+    border-radius: 30%;
+    transition: color 0.5s ease, background-color 0.5s ease, border 0.5s ease;
+    font-size: 42px;
+    padding: 10px;
+    box-sizing: border-box; 
+    position: relative;
+    overflow: hidden;
+    margin-right: 10px;
+}
+
+.linkedin-icon:before {
+    content: "\f0e1";
+    font-family: "Font Awesome 5 Brands";
+    font-weight: 400;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color: #EBD8CF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.linkedin-icon:hover {
+    color: #990f3d;
+    background-color: transparent;
+    border: 3px solid #990f3d;
+    font-size: 42px;
+}
+
+.linkedin-icon:hover:before {
+    content: "\f08c";
+    color: #990f3d;
+}
+
+.facebook-icon {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    color: #EBD8CF;
+    background-color: #990f3d;
+    border: 3px solid transparent;
+    text-align: center;
+    border-radius: 30%;
+    transition: color 0.5s ease, background-color 0.5s ease, border 0.5s ease;
+    font-size: 46px;
+    padding: 7px;   
+    box-sizing: border-box; 
+    position: relative;
+    overflow: hidden;
+}
+
+.facebook-icon:before {
+    content: "\f09a";
+    font-family: "Font Awesome 5 Brands";
+    font-weight: 400;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color: #EBD8CF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.facebook-icon:hover {
+    color: #990f3d;
+    background-color: transparent;
+    border: 3px solid #990f3d;
+    font-size: 45px;
+}
+
+.facebook-icon:hover:before {
+    content: "\f09a";
+    color: #990f3d;
+}
