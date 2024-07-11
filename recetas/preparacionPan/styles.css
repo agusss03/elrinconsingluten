@@ -1,0 +1,157 @@
+body {
+    background-color: #EBD8CF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    flex-direction: column;
+    width: 80%;
+    height: 95%;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    padding-top: 35px;
+    justify-content: space-between;
+}
+
+.header a {
+    text-decoration: none;
+}
+
+.header a p {
+    font-size: 25px;
+    font-weight: 600;
+    font-family: 'Raleway', sans-serif;
+    color: #990f3d;
+}
+
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 45px;
+}
+
+h1 {
+    font-size: 64px;
+    color: #990f3d;
+    font-weight: 400;
+    font-family: "Averia Serif Libre", serif;
+    margin-bottom: 0;
+    margin-bottom: 20px;
+}
+p {
+    font-size: 16px;
+    color: #990f3d;
+    font-weight: 500;
+    font-family: 'Raleway', sans-serif;
+}
+
+li {
+    font-size: 16px;
+    color: #990f3d;
+    font-weight: 500;
+    font-family: 'Raleway', sans-serif;
+}
+
+h2 {
+    font-size: 40px;
+    color: #990f3d;
+    font-weight: 400;
+    font-family: "Averia Serif Libre", serif;
+    margin-bottom: 0;
+    margin-bottom: 20px;  
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.linkedin-icon {
+    color: #990f3d;
+    text-align: center;
+    font-size: 62px;
+    margin-bottom: 10px;
+}
+
+
+.instagram-icon {
+    color: #990f3d;
+    text-align: center;
+    font-size: 62px;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+
+.instructions {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.instructions div {
+    display: flex;
+    flex-direction: column;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ol {
+    list-style-type: decimal;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.logo-footer {
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-logo-name {
+    font-size: 28px;
+    color: #990f3d;
+    font-weight: bold;
+    margin-right: 15px;
+    font-family: 'Averia Serif Libre', serif;
+    font-weight: 400;
+}
+
+.cookie-footer {
+    width: 32px;
+    height: 32px;
+}

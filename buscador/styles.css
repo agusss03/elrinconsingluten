@@ -1,0 +1,209 @@
+body {
+    background-color: #EBD8CF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+}
+
+div a {
+    text-decoration: none;
+}
+
+a div {
+    display: flex;
+    background-color: #fff1ea;
+    border-radius: 7px;
+    width: 312px;
+    height: 290px;
+    flex-direction: column;
+}
+
+a div img {
+    height: 70%;
+}
+
+.container {
+    flex-direction: column;
+    width: 80%;
+    height: 95%;
+    display: flex;
+    position: relative;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 50px;
+    padding-top: 35px;
+}
+
+.logo {
+    display: flex;
+    flex: 1;
+    align-items: center;
+}
+
+.logo img {
+    width: 50px;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+.text h1 {
+    font-size: 48px;
+    color: #990f3d;
+    font-weight: 400;
+    font-family: "Averia Serif Libre", serif;
+    margin-bottom: 0;
+    margin-bottom: 20px;
+}
+
+fieldset{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    display: flex;
+    align-items: center;
+}
+
+
+.search-container {
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+
+.search-container form {
+    width: 100%;
+    background-color: #fff1ea;
+    border: 2;
+    border-color: #990f3d;
+    border-style: solid;
+    border-radius: 40px;
+    padding-right: 20px;
+}
+
+.whisk {
+    width: 40px;
+    height: 40px;
+    transform: rotate(180deg);
+}
+
+.input {
+    width: 100%;
+    background-color: transparent;
+    border: 0;
+    border-color: transparent;
+    border-style: none;
+    font-size: 16px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+    padding-left: 20px;
+}
+
+.input:focus-visible {
+    outline: none;
+    box-shadow: none;
+
+}
+
+.linkedin-icon {
+    color: #990f3d;
+    text-align: center;
+    font-size: 62px;
+    margin-bottom: 10px;
+}
+
+
+.instagram-icon {
+    color: #990f3d;
+    text-align: center;
+    font-size: 62px;
+}
+
+.title {
+    font-size: 24px;
+    color: #990f3d;
+    font-weight: 400;
+    font-family: 'Averia Serif Libre', serif;
+    margin-top: 18px;
+    margin-bottom: 0;
+    margin-left: 10px;
+}
+
+.time {
+    font-size: 15px;
+    color: #959393;
+    font-weight: light;
+    font-family: 'Averia Serif Libre', serif;
+    margin-bottom: 0;
+    margin-left: 10px;
+}
+
+.recipes-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    margin-top: 100px;
+    padding-bottom: 30px;
+}
+
+.recipes-row-container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 35px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.logo-footer {
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-logo-name {
+    font-size: 28px;
+    color: #990f3d;
+    font-weight: bold;
+    margin-right: 15px;
+    font-family: 'Averia Serif Libre', serif;
+    font-weight: 400;
+}
+
+.cookie-footer {
+    width: 32px;
+    height: 32px;
+}
